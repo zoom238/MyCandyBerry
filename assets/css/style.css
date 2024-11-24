@@ -73,7 +73,9 @@ header {
 	height: 58vw;
 
 	object-fit: cover;
+	transition: transform 0.4s ease;
 }
 
-.chocolate {
+.selection__section img:hover {
+	transform: scale(1.1);
 }
