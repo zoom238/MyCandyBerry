@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Vetrino';
+	src: url('/assets/vetrino.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+* {
+	font-family: 'Vetrino', serif;
+	font-weight: 400;
+	font-style: normal;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	margin: 0;
+}
