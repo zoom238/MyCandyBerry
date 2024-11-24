@@ -29,5 +29,7 @@ header {
 	font-weight: 900;
 	font-style: initial;
 
+	border-bottom: 8px solid #efb6bd;
+
 	background-color: pink;
 }
