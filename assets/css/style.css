@@ -33,3 +33,19 @@ header {
 
 	background-color: pink;
 }
+
+.language__switcher {
+	position: absolute;
+
+	right: 2vw;
+}
+
+.lang-btn {
+	background: none;
+
+	opacity: 0.3;
+}
+
+.btn-active {
+	opacity: 1;
+}
