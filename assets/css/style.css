@@ -49,3 +49,10 @@ header {
 .btn-active {
 	opacity: 1;
 }
+
+.strawberry__description {
+	margin-top: 10px;
+	margin-left: 15px;
+
+	font-size: 16px;
+}
