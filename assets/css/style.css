@@ -61,10 +61,16 @@ header h1 {
 }
 
 .strawberry__description {
-	margin-top: 10px;
-	margin-left: 14px;
+	margin: 40px 20px -50px 20px;
+}
 
-	font-size: 16px;
+.strawberry__description h2 {
+	font-size: 38px;
+}
+
+.strawberry__description p {
+	margin-top: 8px;
+	font-size: 24px;
 }
 
 .selection__section {
