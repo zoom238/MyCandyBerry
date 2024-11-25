@@ -19,6 +19,10 @@ body {
 	margin: 0;
 }
 
+main {
+	margin-bottom: 40px;
+}
+
 header {
 	height: 60px;
 
