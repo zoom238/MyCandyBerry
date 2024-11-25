@@ -24,18 +24,20 @@ main {
 }
 
 header {
-	height: 60px;
+	height: 80px;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	font-weight: 900;
-	font-style: initial;
-
 	border-bottom: 8px solid #efb6bd;
 
 	background-color: pink;
+}
+
+header h1 {
+	font-size: 48px;
+	font-weight: 900;
 }
 
 .language__switcher {
