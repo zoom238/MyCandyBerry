@@ -49,8 +49,11 @@ header h1 {
 .lang-btn {
 	background: none;
 	cursor: pointer;
+	padding-left: 8px;
 
-	opacity: 0.3;
+	font-size: 20px;
+
+	opacity: 0.4;
 }
 
 .btn-active {
