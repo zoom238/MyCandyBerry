@@ -83,14 +83,16 @@ header h1 {
 	overflow: hidden;
 }
 
-.selection__section img {
+.selection__section_item {
 	width: 100%;
 
 	object-fit: cover;
 	transition: transform 0.5s ease;
+
+	z-index: 0;
 }
 
-.selection__section img:hover {
+.selection__section_item:hover {
 	transform: scale(1.05);
 
 	z-index: 0;
@@ -100,7 +102,7 @@ header h1 {
 	padding: 20px;
 
 	position: absolute;
-	margin-top: 15vh;
+	margin-top: 48vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 20px;
