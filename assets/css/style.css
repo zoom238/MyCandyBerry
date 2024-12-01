@@ -129,5 +129,21 @@ header h1 {
 
 	background-color: #ffff;
 
+	user-select: none;
 	z-index: 2;
+}
+
+.selection__content {
+	width: 100%;
+	height: 100px;
+
+	margin-top: 16px;
+
+	border-radius: 20px;
+
+	background: #ff0000;
+}
+
+.hidden {
+	display: none;
 }
