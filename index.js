@@ -22,4 +22,16 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		})
 	})
+
+	const chocolateItems = document.querySelectorAll('.chocolate__selectable')
+
+	chocolateItems.forEach((item) => {
+		item.addEventListener('click', () => {
+			chocolateItems.forEach((chocolate) =>
+				chocolate.classList.remove('active')
+			)
+
+			item.classList.add('active')
+		})
+	})
 })
