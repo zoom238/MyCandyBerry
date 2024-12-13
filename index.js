@@ -27,11 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	chocolateItems.forEach((item) => {
 		item.addEventListener('click', () => {
-			chocolateItems.forEach((chocolate) =>
-				chocolate.classList.remove('active')
-			)
+			if (item.classList.contains('active')) {
+				item.classList.remove('active')
+			} else {
+				chocolateItems.forEach((chocolate) =>
+					chocolate.classList.remove('active')
+				)
 
-			item.classList.add('active')
+				item.classList.add('active')
+			}
 		})
 	})
 })
