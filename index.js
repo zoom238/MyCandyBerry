@@ -38,4 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		})
 	})
+
+	const topping = document.querySelectorAll('.topping__cell')
+
+	topping.forEach((toppingItem) => {
+		toppingItem.addEventListener('click', () => {
+			if (toppingItem.classList.contains('topping__cell')) {
+				toppingItem.classList.toggle('selected')
+			}
+		})
+	})
 })
