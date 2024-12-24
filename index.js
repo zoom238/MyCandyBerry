@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sections.forEach((section) => {
     section.addEventListener("click", () => {
-      const content = section.nextElementSibling;
+      const content = section.querySelector(".selection__content");
 
       if (content && content.classList.contains("selection__content")) {
         content.classList.toggle("hidden");
@@ -26,7 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const chocolateItems = document.querySelectorAll(".chocolate__selectable");
 
   chocolateItems.forEach((item) => {
-    item.addEventListener("click", () => {
+    item.addEventListener("click", (e) => {
+      e.stopPropagation();
+
       if (item.classList.contains("active")) {
         item.classList.remove("active");
       } else {
@@ -42,7 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const topping = document.querySelectorAll(".topping__cell");
 
   topping.forEach((toppingItem) => {
-    toppingItem.addEventListener("click", () => {
+    toppingItem.addEventListener("click", (e) => {
+      e.stopPropagation();
+
       if (toppingItem.classList.contains("topping__cell")) {
         toppingItem.classList.toggle("selected");
       }
