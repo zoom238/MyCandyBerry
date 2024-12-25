@@ -48,4 +48,20 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		})
 	})
+
+	const decorationItems = document.querySelectorAll('.decoration__section')
+
+	decorationItems.forEach((item) => {
+		item.addEventListener('click', () => {
+			if (item.classList.contains('decoration-selected')) {
+				item.classList.remove('decoration-selected')
+			} else {
+				decorationItems.forEach((decoration) =>
+					decoration.classList.remove('decoration-selected')
+				)
+
+				item.classList.add('decoration-selected')
+			}
+		})
+	})
 })

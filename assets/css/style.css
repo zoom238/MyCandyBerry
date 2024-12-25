@@ -210,6 +210,10 @@ header h1 {
 	background-color: #f9e1e5;
 }
 
+.active {
+	background-color: rgb(255, 255, 255);
+}
+
 .topping__selectable {
 	margin: 20px 60px;
 	gap: 1vh 2vw;
@@ -260,8 +264,28 @@ header h1 {
 	background-color: rgb(255, 202, 210);
 } */
 
-.active {
-	background-color: rgb(255, 255, 255);
+.decorations__block {
+	margin: 20px 60px;
+	gap: 2vh 5vw;
+
+	display: grid;
+	justify-items: center;
+	grid-template-columns: repeat(5, 2fr);
+}
+
+.decoration__section {
+	transition: 0.2s;
+}
+
+.decoration__section img {
+	width: 22vh;
+
+	mix-blend-mode: multiply;
+}
+
+.decoration-selected {
+	outline: 5px solid #ffc0cb;
+	background-color: #b4b4b4;
 }
 
 .footer {
