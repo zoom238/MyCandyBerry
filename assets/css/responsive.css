@@ -31,4 +31,80 @@
 	* {
 		font-size: 12px;
 	}
+
+	header {
+		height: 100px;
+
+		justify-content: flex-start;
+	}
+
+	header h1 {
+		margin-left: 20px;
+
+		font-size: 32px;
+	}
+
+	main {
+		margin-bottom: 0;
+	}
+
+	.description p {
+		font-size: 18px;
+	}
+
+	.selection__section {
+		margin-top: 14px;
+	}
+
+	.selection__section_text {
+		padding: 6px;
+		border-radius: 10px;
+	}
+
+	.selection__section_text h2 {
+		font-size: 34px;
+	}
+
+	.selection__section_img {
+		aspect-ratio: 3 / 1;
+	}
+
+	.chocolate__description {
+		width: 90%;
+	}
+
+	.chocolate__selectable_block {
+		width: 90%;
+	}
+
+	.chocolate__selectable_block h3 {
+		padding: 12px;
+
+		border-radius: 12px;
+
+		font-size: 24px;
+	}
+
+	.chocolate__selectable_block_item {
+		margin: 0px;
+	}
+
+	.chocolate__selectable {
+		margin-bottom: 8px;
+		padding: 12px;
+
+		border-radius: 12px;
+
+		font-size: 32px;
+	}
+
+	.footer__title {
+		font-size: 36px;
+	}
+
+	.nav {
+		padding: 10px;
+
+		border-radius: 10px;
+	}
 }

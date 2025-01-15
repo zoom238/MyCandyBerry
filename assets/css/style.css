@@ -165,6 +165,12 @@ header h1 {
 	background-color: #ffc0cb;
 }
 
+.chocolate__description p {
+	width: 60%;
+
+	word-wrap: break-word;
+}
+
 .chocolate__selectable_block {
 	width: 60%;
 
