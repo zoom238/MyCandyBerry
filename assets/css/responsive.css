@@ -14,7 +14,65 @@
 
 @media (max-width: 1220px) {
 	* {
-		font-size: 16px;
+		font-size: 18px;
+	}
+
+	.description p {
+		font-size: 24px;
+	}
+
+	.selection__section {
+		margin-top: 14px;
+	}
+
+	.selection__section_text h2 {
+		font-size: 80px;
+	}
+
+	.chocolate__description {
+		width: 70%;
+	}
+
+	.chocolate__selectable_block {
+		width: 70%;
+	}
+
+	.chocolate__selectable_block h3 {
+		padding: 12px;
+
+		border-radius: 12px;
+
+		font-size: 40px;
+	}
+
+	.chocolate__selectable_block_item {
+		margin: 0px;
+	}
+
+	.chocolate__selectable {
+		margin-bottom: 8px;
+		padding: 12px;
+
+		border-radius: 12px;
+
+		font-size: 32px;
+	}
+
+	.topping__cell {
+		height: 16vh;
+	}
+
+	.topping__cell p {
+		font-size: 24px;
+		line-height: 1.4;
+	}
+
+	.nav_content_item {
+		width: 56vw;
+
+		padding: 14px;
+
+		word-wrap: break-word;
 	}
 }
 
@@ -46,14 +104,11 @@
 
 	main {
 		margin-bottom: 0;
+		padding: 20px 20px 0 20px;
 	}
 
 	.description p {
 		font-size: 18px;
-	}
-
-	.selection__section {
-		margin-top: 14px;
 	}
 
 	.selection__section_text {
@@ -78,24 +133,32 @@
 	}
 
 	.chocolate__selectable_block h3 {
-		padding: 12px;
-
-		border-radius: 12px;
-
 		font-size: 24px;
 	}
 
-	.chocolate__selectable_block_item {
-		margin: 0px;
+	.topping__selectable {
+		margin: 16px;
+
+		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.chocolate__selectable {
-		margin-bottom: 8px;
-		padding: 12px;
+	.topping__cell {
+		height: 14vh;
+	}
 
-		border-radius: 12px;
+	.topping__cell p {
+		font-size: 20px;
+		line-height: 1.4;
+	}
 
-		font-size: 32px;
+	.decorations__block {
+		margin: 20px 0px;
+
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.decoration__section img {
+		width: 38vw;
 	}
 
 	.footer__title {
@@ -106,5 +169,9 @@
 		padding: 10px;
 
 		border-radius: 10px;
+	}
+
+	.nav_content_item {
+		width: 86vw;
 	}
 }

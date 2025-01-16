@@ -193,7 +193,7 @@ header h1 {
 
 	border-radius: 20px;
 
-	background-color: #f9e1e5;
+	background-color: #ffffff;
 }
 
 .chocolate__selectable_block_item {
@@ -233,9 +233,6 @@ header h1 {
 	justify-content: center;
 	align-items: center;
 
-	font-size: 32px;
-	line-height: 1.4;
-
 	cursor: pointer;
 
 	border: 2px solid #efb6bd;
@@ -255,6 +252,9 @@ header h1 {
 
 .topping__cell p {
 	margin: 0;
+
+	font-size: 32px;
+	line-height: 1.4;
 	text-align: center;
 	word-wrap: break-word;
 }
@@ -285,7 +285,7 @@ header h1 {
 }
 
 .decoration__section img {
-	width: 22vh;
+	width: 12vw;
 
 	mix-blend-mode: multiply;
 }
