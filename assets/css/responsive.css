@@ -1,15 +1,7 @@
 @media (min-width: 3840px) {
-	* {
-		font-size: 48px;
-		line-height: 1;
-	}
 }
 
 @media (min-width: 2560px) and (max-width: 3839px) {
-	* {
-		font-size: 32px;
-		line-height: 1;
-	}
 }
 
 @media (max-width: 1220px) {
@@ -80,9 +72,74 @@
 	* {
 		font-size: 16px;
 	}
+
+	.selection__section_text h2 {
+		font-size: 60px;
+	}
 }
 
 @media (max-width: 768px) {
+	header {
+		justify-content: flex-start;
+	}
+
+	header h1 {
+		margin-left: 20px;
+
+		font-size: 36px;
+	}
+
+	.strawberry__description p {
+		margin: 20px;
+	}
+
+	.description p {
+		margin: 0;
+	}
+
+	.selection__section_text h2 {
+		font-size: 50px;
+	}
+
+	.selection__section_img {
+		aspect-ratio: 3 / 1;
+	}
+
+	.chocolate__description {
+		width: 95%;
+	}
+
+	.chocolate__selectable_block {
+		width: 95%;
+	}
+
+	.chocolate__selectable_block h3 {
+		font-size: 30px;
+	}
+
+	.topping__selectable {
+		margin: 16px;
+
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.topping__cell {
+		height: 12vh;
+	}
+
+	.topping__cell p {
+		font-size: 18px;
+	}
+
+	.decorations__block {
+		margin: 20px 0px;
+
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.decoration__section img {
+		width: 38vw;
+	}
 }
 
 @media (max-width: 480px) {
@@ -120,10 +177,6 @@
 		font-size: 34px;
 	}
 
-	.selection__section_img {
-		aspect-ratio: 3 / 1;
-	}
-
 	.chocolate__description {
 		width: 90%;
 	}
@@ -137,8 +190,6 @@
 	}
 
 	.topping__selectable {
-		margin: 16px;
-
 		grid-template-columns: repeat(2, 1fr);
 	}
 
@@ -149,16 +200,6 @@
 	.topping__cell p {
 		font-size: 20px;
 		line-height: 1.4;
-	}
-
-	.decorations__block {
-		margin: 20px 0px;
-
-		grid-template-columns: repeat(2, 1fr);
-	}
-
-	.decoration__section img {
-		width: 38vw;
 	}
 
 	.footer__title {
