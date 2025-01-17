@@ -1,0 +1,220 @@
+@media (min-width: 3840px) {
+}
+
+@media (min-width: 2560px) and (max-width: 3839px) {
+}
+
+@media (max-width: 1220px) {
+	* {
+		font-size: 18px;
+	}
+
+	.description p {
+		font-size: 24px;
+	}
+
+	.selection__section {
+		margin-top: 14px;
+	}
+
+	.selection__section_text h2 {
+		font-size: 80px;
+	}
+
+	.chocolate__description {
+		width: 70%;
+	}
+
+	.chocolate__selectable_block {
+		width: 70%;
+	}
+
+	.chocolate__selectable_block h3 {
+		padding: 12px;
+
+		border-radius: 12px;
+
+		font-size: 40px;
+	}
+
+	.chocolate__selectable_block_item {
+		margin: 0px;
+	}
+
+	.chocolate__selectable {
+		margin-bottom: 8px;
+		padding: 12px;
+
+		border-radius: 12px;
+
+		font-size: 32px;
+	}
+
+	.topping__cell {
+		height: 16vh;
+	}
+
+	.topping__cell p {
+		font-size: 24px;
+		line-height: 1.4;
+	}
+
+	.nav_content_item {
+		width: 56vw;
+
+		padding: 14px;
+
+		word-wrap: break-word;
+	}
+}
+
+@media (max-width: 992px) {
+	* {
+		font-size: 16px;
+	}
+
+	.selection__section_text h2 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+		padding: 16px;
+
+		justify-content: space-between;
+	}
+
+	header h1 {
+		font-size: 36px;
+	}
+
+	.language__switcher {
+		position: static;
+	}
+
+	.strawberry__description p {
+		margin: 20px;
+	}
+
+	.description p {
+		margin: 0;
+	}
+
+	.selection__section_text h2 {
+		font-size: 50px;
+	}
+
+	.selection__section_img {
+		aspect-ratio: 3 / 1;
+	}
+
+	.chocolate__description {
+		width: 95%;
+	}
+
+	.chocolate__selectable_block {
+		width: 95%;
+	}
+
+	.chocolate__selectable_block h3 {
+		font-size: 30px;
+	}
+
+	.topping__selectable {
+		margin: 16px;
+
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.topping__cell {
+		height: 12vh;
+	}
+
+	.topping__cell p {
+		font-size: 18px;
+	}
+
+	.decorations__block {
+		margin: 20px 0px;
+
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.decoration__section img {
+		width: 38vw;
+	}
+}
+
+@media (max-width: 480px) {
+	* {
+		font-size: 12px;
+	}
+
+	header {
+		justify-content: flex-start;
+	}
+
+	header h1 {
+		margin-left: 20px;
+
+		font-size: 32px;
+	}
+
+	main {
+		margin-bottom: 0;
+		padding: 20px 20px 0 20px;
+	}
+
+	.description p {
+		font-size: 18px;
+	}
+
+	.selection__section_text {
+		padding: 6px;
+		border-radius: 10px;
+	}
+
+	.selection__section_text h2 {
+		font-size: 34px;
+	}
+
+	.chocolate__description {
+		width: 90%;
+	}
+
+	.chocolate__selectable_block {
+		width: 90%;
+	}
+
+	.chocolate__selectable_block h3 {
+		font-size: 24px;
+	}
+
+	.topping__selectable {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.topping__cell {
+		height: 14vh;
+	}
+
+	.topping__cell p {
+		font-size: 20px;
+		line-height: 1.4;
+	}
+
+	.footer__title {
+		font-size: 36px;
+	}
+
+	.nav {
+		padding: 10px;
+
+		border-radius: 10px;
+	}
+
+	.nav_content_item {
+		width: 86vw;
+	}
+}
