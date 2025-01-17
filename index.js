@@ -68,14 +68,4 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		})
 	})
-
-	const scrollDownBtn = document.querySelector('.scroll-down-btn')
-
-	window.addEventListener('scroll', () => {
-		if (window.scrollY > 100) {
-			scrollDownBtn.classList.add('hidden')
-		} else {
-			scrollDownBtn.classList.remove('hidden')
-		}
-	})
 })

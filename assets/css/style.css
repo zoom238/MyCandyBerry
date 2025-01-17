@@ -345,25 +345,3 @@ header h1 {
 	transform: translateY(0);
 	transition: opacity 0.7s ease, transform 0.5s ease;
 }
-.scroll-down-btn {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	padding: 10px 20px;
-
-	font-size: 18px;
-	font-weight: bold;
-	color: white;
-
-	background-color: #efb6bd;
-	border-radius: 10px;
-	cursor: pointer;
-	z-index: 3;
-
-	transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.scroll-down-btn:hover {
-	background-color: #d09a9f;
-	transform: scale(1.1);
-}
