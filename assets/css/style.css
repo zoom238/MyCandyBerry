@@ -279,22 +279,33 @@ header h1 {
 	gap: 2vh 5vw;
 
 	display: grid;
-	justify-items: center;
-	grid-template-columns: repeat(5, 2fr);
+	grid-template-columns: repeat(2, 2fr);
 }
 
 .decoration__section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: center;
+
+	border: 5px solid transparent;
 	transition: 0.2s;
 }
 
 .decoration__section img {
-	width: 22vh;
+	width: 28vw;
 
 	mix-blend-mode: multiply;
 }
 
+.decoration__section h4 {
+	text-align: center;
+	font-size: 48px;
+}
+
 .decoration-selected {
-	outline: 5px solid #ffc0cb;
+	border: 5px solid #ffc0cb;
+	box-sizing: border-box;
 	background-color: #b4b4b4;
 }
 
