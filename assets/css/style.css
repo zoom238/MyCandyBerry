@@ -89,6 +89,7 @@ header h1 {
 .selection__section_item {
 	width: 100%;
 
+	position: relative;
 	object-fit: cover;
 	transition: transform 0.5s ease;
 
@@ -107,8 +108,8 @@ header h1 {
 	padding: 20px;
 
 	position: absolute;
-	margin-top: 48vh;
 	left: 50%;
+	top: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 20px;
 
