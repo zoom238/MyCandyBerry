@@ -80,13 +80,17 @@
 
 @media (max-width: 768px) {
 	header {
-		justify-content: flex-start;
+		padding: 16px;
+
+		justify-content: space-between;
 	}
 
 	header h1 {
-		margin-left: 20px;
-
 		font-size: 36px;
+	}
+
+	.language__switcher {
+		position: static;
 	}
 
 	.strawberry__description p {
@@ -148,8 +152,6 @@
 	}
 
 	header {
-		height: 100px;
-
 		justify-content: flex-start;
 	}
 
