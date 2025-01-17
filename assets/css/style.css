@@ -72,6 +72,12 @@ header h1 {
 	text-align: center;
 }
 
+.selection__block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .selection__section {
 	width: 100%;
 
@@ -84,6 +90,14 @@ header h1 {
 
 	cursor: pointer;
 	overflow: hidden;
+}
+
+.selection__section:hover .selection__section_img {
+	transform: scale(1.05);
+}
+
+.selection__section:hover .selection__section_text {
+	transform: scale(1.05) translate(-47.5%, -47.5%);
 }
 
 .selection__section_item {
@@ -101,6 +115,7 @@ header h1 {
 	aspect-ratio: 4 / 1;
 	object-fit: cover;
 
+	transition: transform 0.5s ease;
 	z-index: 0;
 }
 
@@ -112,11 +127,13 @@ header h1 {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 20px;
+	transition: transform 0.5s ease;
 
 	font-size: 64px;
 
 	background-color: #ffff;
 
+	user-select: none;
 	z-index: 2;
 }
 
